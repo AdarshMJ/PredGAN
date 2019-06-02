@@ -21,6 +21,7 @@ To run the code follow these directions -
 7)In our experiments we found that setting the number of input frames equal to the number of frames allowed the network to generate sharp images.
 8) We introduce Earth Mover's Distance (EMD) as one of the novel criteria to assess the quality of the frames generated.
 9)After the frames are generated we can assess the quality of the frames that are generated using EMD.
-10) pip install pyemd.
+10) https://pypi.org/project/pyemd/ (pip install pyemd)
+
 
 
