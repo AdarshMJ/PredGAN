@@ -23,5 +23,8 @@ To run the code follow these directions -
 9)After the frames are generated we can assess the quality of the frames that are generated using EMD.
 10) https://pypi.org/project/pyemd/ (pip install pyemd)
 
+11)For results check out -  hhttps://adarshmj.github.io/page4.html
+
+
 
 
