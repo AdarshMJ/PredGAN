@@ -15,16 +15,18 @@ To run the code follow these directions -
 2) Download the UCSD anomaly detection dataset - https://www.google.com/search?source=hp&ei=8PfzXJ7OD8eOlwTYyaToBQ&q=ucsd+pedestrian+dataset&oq=ucsd+pedes&gs_l=psy-ab.1.0.0l2j0i22i30.582.3181..3992...0.0..0.500.4264.3-4j5j1......0....1..gws-wiz.....0..0i131j0i3.xG2hYVB_uGg
 
 3)Create a folder called Data in the downloaded code repository and move the downloaded UCSD pedestrian dataset.
+
 4)Now go to folder called Code and go to constants.py, modify the data paths.
+
 5)Play with the learning rate, batch size and other parameters.
 6)Start training by running - avg_runner.py
+
 7)In our experiments we found that setting the number of input frames equal to the number of frames allowed the network to generate sharp images.
+
 8) We introduce Earth Mover's Distance (EMD) as one of the novel criteria to assess the quality of the frames generated.
+
 9)After the frames are generated we can assess the quality of the frames that are generated using EMD.
+
 10) https://pypi.org/project/pyemd/ (pip install pyemd)
-
-11)For results check out -  https://adarshmj.github.io/page4.html
-
-
 
 
